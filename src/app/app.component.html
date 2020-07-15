@@ -1,0 +1,13 @@
+<mat-sidenav-container class="example-container">
+  <mat-sidenav #sidenav mode="side">
+    <h5>Drawer content</h5>
+    <div style="text-align: center; padding: 8px; width: 300px;">Olá</div>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div class="content">
+      <h1>Olá</h1>
+      <button id="open-sidenav" mat-button (click)="sidenav.toggle()">sidenav.toggle()</button>
+      <button id="open-modal" color="primary" mat-raised-button (click)="openDialog()">Abrir Modal</button>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
